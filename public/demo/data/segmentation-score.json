@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1000",
+            "name": "r_score_1",
+            "description": "Description r_score_1",
+            "clientId": "5d6d46be12fd1c31ce257e18",
+            "type": "recency",
+            "expression": "last_order_age_minutes > 257", 
+            "createdAt": "09/13/2022",
+            "updatedAt": "09/13/2022"        
+        },
+        {
+            "id": "1001",
+            "name": "r_score_2",
+            "description": "Description r_score_2",
+            "clientId": "5d6d46be12fd1c31ce257e18",
+            "type": "recency",
+            "expression": "last_order_age_minutes > 257 AND last_order_age_minutes < 350", 
+            "createdAt": "09/13/2022",
+            "updatedAt": "09/13/2022"        
+        },
+        {
+            "id": "1002",
+            "name": "f_score_1",
+            "description": "Description f_score_1",
+            "clientId": "5d6d46be12fd1c31ce257e18",
+            "type": "frequency",
+            "expression": "order_count > 30 AND period_from_now = 30", 
+            "createdAt": "09/13/2022",
+            "updatedAt": "09/13/2022"        
+        }
+    ]
+}
